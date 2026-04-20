@@ -1,0 +1,20 @@
+  {
+    "name": "my-telegram-bot",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+      "start": "node src/app.js",
+      "dev": "nodemon src/app.js"
+    },
+    "dependencies": {
+      "@grammyjs/conversations": "^2.1.1",
+      "dotenv": "^17.4.2",
+      "grammy": "^1.42.0",
+      "pg": "^8.20.0",
+      "pg-hstore": "^2.3.4",
+      "sequelize": "^6.37.8"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.14"
+    }
+  }
